@@ -12,9 +12,11 @@ import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 import { SearchComponent } from './search/search.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { HomeComponent } from './home/home.component';
+import { ContentComponent } from './content/content.component';
+import { Menu_verticalComponent } from './menu_vertical/menu_vertical.component';
 
 @NgModule({
-  declarations: [									
+  declarations: [											
     AppComponent,
       LoginComponent,
       HeaderComponent,
@@ -24,7 +26,9 @@ import { HomeComponent } from './home/home.component';
       BreadcrumbsComponent,
       SearchComponent,
       SidebarComponent,
-      HomeComponent
+      HomeComponent,
+      ContentComponent,
+      Menu_verticalComponent
    ],
   imports: [
     BrowserModule,
