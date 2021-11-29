@@ -37,10 +37,17 @@ justify-content: space-between;
   display: flex;
 justify-content: start;
 align-items: start;
+padding: 10px;
+padding-top: 0px;
 }
 
 .footer{
   display: flex;
 align-items: center;
 justify-content: space-around;
+}
+
+.login, .menu_vertical {
+  height: 150px;
+  margin-right: 10px;
 }
