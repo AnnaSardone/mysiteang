@@ -14,9 +14,10 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { HomeComponent } from './home/home.component';
 import { ContentComponent } from './content/content.component';
 import { Menu_verticalComponent } from './menu_vertical/menu_vertical.component';
+import { LogoComponent } from './logo/logo.component';
 
 @NgModule({
-  declarations: [											
+  declarations: [												
     AppComponent,
       LoginComponent,
       HeaderComponent,
@@ -28,7 +29,8 @@ import { Menu_verticalComponent } from './menu_vertical/menu_vertical.component'
       SidebarComponent,
       HomeComponent,
       ContentComponent,
-      Menu_verticalComponent
+      Menu_verticalComponent,
+      LogoComponent
    ],
   imports: [
     BrowserModule,

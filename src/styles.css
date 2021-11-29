@@ -8,3 +8,39 @@
 .bg-green {
   background-color: green;
 }
+
+.header{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  position: sticky;
+  z-index: -10000;
+}
+
+.nav-bar{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.nav-bar > div {
+  margin-top: -10px;
+}
+
+.sub_header{
+  display: flex;
+align-content: center;
+align-items: center;
+justify-content: space-between;
+}
+
+.content {
+  display: flex;
+justify-content: start;
+align-items: start;
+}
+
+.footer{
+  display: flex;
+align-items: center;
+justify-content: space-around;
+}
